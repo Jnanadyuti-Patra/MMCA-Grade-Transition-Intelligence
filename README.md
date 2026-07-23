@@ -1,9 +1,9 @@
-# MMCA Grade Transition Intelligence
+# MMCA Grade Transition Intelligence 
 
 A reproducible Streamlit application for analysing sudden grade changes in
 continuous-cast copper rod production.
 
-The application accepts the two monthly files provided by Metrod:
+The application accepts the two monthly files provided by Metrod Holdings Berhad - (MHB):
 
 1. **CCR Coil Inspection details Master** containing product and coil-quality data
 2. **Process_Values** containing timestamped CCR process measurements
@@ -14,6 +14,8 @@ probable upstream process contributors, estimates the commercial exposure, and
 generates a detailed report for Quality Control and Process Engineering.
 
 ![MMCA workflow](docs/workflow.svg)
+
+## Application Link: (https://mmca-grade-transition-intelligence.streamlit.app)
 
 ## Problem statement
 
@@ -204,14 +206,6 @@ The minimum required fields are `Coil ID`, `Date`, `Start Time`, and `Grade`.
 Common simplified-sheet names such as `25 RTF Twist Test (Number)` and
 `Oxide Content (Å)` are automatically translated to the canonical names used
 by the grading engine.
-
-### Fixed in Version 1.0.1
-
-The first release incorrectly read the `Master` worksheet using the second row
-as the header. In the supplied company workbook, the real header is the first
-row, which caused the application to report that `Coil ID`, `Date`,
-`Start Time`, and `Grade` were missing. Version 1.0.1 replaces this assumption
-with automatic worksheet and header detection.
 
 ## Installation
 
