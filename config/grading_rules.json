@@ -1,0 +1,1966 @@
+{
+  "revisions": [
+    {
+      "revision": 19,
+      "effective_from": "2021-08-12",
+      "parameters": {
+        "Diameter": {
+          "7": {
+            "op": "between",
+            "min": 7.75,
+            "max": 8.25
+          },
+          "6": {
+            "op": "between",
+            "min": 7.75,
+            "max": 8.25
+          },
+          "5": {
+            "op": "between",
+            "min": 7.62,
+            "max": 8.38
+          },
+          "4": {
+            "op": "between",
+            "min": 7.62,
+            "max": 8.38
+          },
+          "3": {
+            "op": "between",
+            "min": 7.62,
+            "max": 8.38
+          },
+          "2": {
+            "op": "between",
+            "min": 7.62,
+            "max": 8.38
+          },
+          "1": {
+            "op": "between",
+            "min": 0.0,
+            "max": 10.0
+          },
+          "0": {
+            "op": "between",
+            "min": 5.0,
+            "max": 12.0
+          }
+        },
+        "Tensile strength": {
+          "7": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "6": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "5": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "4": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "3": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "2": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "1": {
+            "op": "between",
+            "min": 200.0,
+            "max": 270.0
+          },
+          "0": {
+            "op": "between",
+            "min": 150.0,
+            "max": 300.0
+          }
+        },
+        "Elongation": {
+          "7": {
+            "op": "gt",
+            "value": 42.0
+          },
+          "6": {
+            "op": "gt",
+            "value": 40.0
+          },
+          "5": {
+            "op": "gt",
+            "value": 37.0
+          },
+          "4": {
+            "op": "gt",
+            "value": 35.0
+          },
+          "3": {
+            "op": "gt",
+            "value": 35.0
+          },
+          "2": {
+            "op": "gt",
+            "value": 30.0
+          },
+          "1": {
+            "op": "gt",
+            "value": 30.0
+          },
+          "0": {
+            "op": "lt",
+            "value": 30.0
+          }
+        },
+        "Conductivity": {
+          "7": {
+            "op": "gt",
+            "value": 101.4
+          },
+          "6": {
+            "op": "gt",
+            "value": 101.2
+          },
+          "5": {
+            "op": "gt",
+            "value": 101.0
+          },
+          "4": {
+            "op": "gt",
+            "value": 101.0
+          },
+          "3": {
+            "op": "gt",
+            "value": 100.0
+          },
+          "2": {
+            "op": "gt",
+            "value": 100.0
+          },
+          "1": {
+            "op": "gt",
+            "value": 95.0
+          },
+          "0": {
+            "op": "lt",
+            "value": 90.0
+          }
+        },
+        "Large surface defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Medium surface defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Small surface defects": {
+          "7": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 25.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 200.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Large ferrous defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Medium ferrous defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Small ferrous defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Oxygen": {
+          "7": {
+            "op": "between",
+            "min": 225.0,
+            "max": 275.0
+          },
+          "6": {
+            "op": "between",
+            "min": 225.0,
+            "max": 300.0
+          },
+          "5": {
+            "op": "between",
+            "min": 225.0,
+            "max": 350.0
+          },
+          "4": {
+            "op": "between",
+            "min": 200.0,
+            "max": 400.0
+          },
+          "3": {
+            "op": "between",
+            "min": 175.0,
+            "max": 450.0
+          },
+          "2": {
+            "op": "between",
+            "min": 175.0,
+            "max": 600.0
+          },
+          "1": {
+            "op": "between",
+            "min": 601.0,
+            "max": 750.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 750.0
+          }
+        },
+        "Oxide content": {
+          "7": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 200.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 300.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 400.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 500.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 750.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 1000.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 1000.0
+          }
+        },
+        "25 RTF twist": {
+          "7": {
+            "op": "gt",
+            "value": 35.0
+          },
+          "6": {
+            "op": "gt",
+            "value": 32.0
+          },
+          "5": {
+            "op": "gt",
+            "value": 30.0
+          },
+          "4": {
+            "op": "gt",
+            "value": 28.0
+          },
+          "3": {
+            "op": "gt",
+            "value": 25.0
+          },
+          "2": {
+            "op": "gt",
+            "value": 20.0
+          },
+          "1": {
+            "op": "gt",
+            "value": 10.0
+          },
+          "0": {
+            "op": "lt",
+            "value": 10.0
+          }
+        },
+        "15 \u00d7 15 twist": {
+          "7": {
+            "op": "eq",
+            "value": 1.0
+          },
+          "6": {
+            "op": "eq",
+            "value": 1.0
+          },
+          "5": {
+            "op": "eq",
+            "value": 1.0
+          },
+          "4": {
+            "op": "eq",
+            "value": 2.0
+          },
+          "3": {
+            "op": "eq",
+            "value": 2.0
+          },
+          "2": {
+            "op": "eq",
+            "value": 3.0
+          },
+          "1": {
+            "op": "eq",
+            "value": 4.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 4.0
+          }
+        },
+        "Aluminium": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 5.0
+          }
+        },
+        "Antimony": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 4.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 4.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 4.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 5.0
+          }
+        },
+        "Arsenic": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 5.0
+          }
+        },
+        "Bismuth": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 2.0
+          }
+        },
+        "Cadmium": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 3.0
+          }
+        },
+        "Iron": {
+          "7": {
+            "op": "lt",
+            "value": 6.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 9.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 20.0
+          }
+        },
+        "Lead": {
+          "7": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 6.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 7.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 9.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 10.0
+          }
+        },
+        "Nickel": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 10.0
+          }
+        },
+        "Phosphorus": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 4.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 5.0
+          }
+        },
+        "Selenium": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 3.0
+          }
+        },
+        "Sulphur": {
+          "7": {
+            "op": "lt",
+            "value": 8.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 15.0
+          }
+        },
+        "Tellurium": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 2.0
+          }
+        },
+        "Tin": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 100.0
+          }
+        },
+        "Zinc": {
+          "7": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 20.0
+          }
+        }
+      }
+    },
+    {
+      "revision": 20,
+      "effective_from": "2024-06-11",
+      "parameters": {
+        "Diameter": {
+          "7": {
+            "op": "between",
+            "min": 7.75,
+            "max": 8.25
+          },
+          "6": {
+            "op": "between",
+            "min": 7.75,
+            "max": 8.25
+          },
+          "5": {
+            "op": "between",
+            "min": 7.62,
+            "max": 8.38
+          },
+          "4": {
+            "op": "between",
+            "min": 7.62,
+            "max": 8.38
+          },
+          "3": {
+            "op": "between",
+            "min": 7.62,
+            "max": 8.38
+          },
+          "2": {
+            "op": "between",
+            "min": 7.62,
+            "max": 8.38
+          },
+          "1": {
+            "op": "between",
+            "min": 0.0,
+            "max": 10.0
+          },
+          "0": {
+            "op": "between",
+            "min": 5.0,
+            "max": 12.0
+          }
+        },
+        "Tensile strength": {
+          "7": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "6": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "5": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "4": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "3": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "2": {
+            "op": "between",
+            "min": 210.0,
+            "max": 250.0
+          },
+          "1": {
+            "op": "between",
+            "min": 200.0,
+            "max": 270.0
+          },
+          "0": {
+            "op": "between",
+            "min": 150.0,
+            "max": 300.0
+          }
+        },
+        "Elongation": {
+          "7": {
+            "op": "gt",
+            "value": 42.0
+          },
+          "6": {
+            "op": "gt",
+            "value": 40.0
+          },
+          "5": {
+            "op": "gt",
+            "value": 37.0
+          },
+          "4": {
+            "op": "gt",
+            "value": 35.0
+          },
+          "3": {
+            "op": "gt",
+            "value": 35.0
+          },
+          "2": {
+            "op": "gt",
+            "value": 30.0
+          },
+          "1": {
+            "op": "gt",
+            "value": 30.0
+          },
+          "0": {
+            "op": "lt",
+            "value": 30.0
+          }
+        },
+        "Conductivity": {
+          "7": {
+            "op": "gt",
+            "value": 101.4
+          },
+          "6": {
+            "op": "gt",
+            "value": 101.2
+          },
+          "5": {
+            "op": "gt",
+            "value": 101.0
+          },
+          "4": {
+            "op": "gt",
+            "value": 101.0
+          },
+          "3": {
+            "op": "gt",
+            "value": 100.0
+          },
+          "2": {
+            "op": "gt",
+            "value": 100.0
+          },
+          "1": {
+            "op": "gt",
+            "value": 95.0
+          },
+          "0": {
+            "op": "lt",
+            "value": 90.0
+          }
+        },
+        "Large surface defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Medium surface defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Small surface defects": {
+          "7": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 25.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 200.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Large ferrous defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Medium ferrous defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 50.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Small ferrous defects": {
+          "7": {
+            "op": "eq",
+            "value": 0.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 9999.0
+          }
+        },
+        "Oxygen": {
+          "7": {
+            "op": "between",
+            "min": 225.0,
+            "max": 275.0
+          },
+          "6": {
+            "op": "between",
+            "min": 225.0,
+            "max": 300.0
+          },
+          "5": {
+            "op": "between",
+            "min": 225.0,
+            "max": 350.0
+          },
+          "4": {
+            "op": "between",
+            "min": 200.0,
+            "max": 400.0
+          },
+          "3": {
+            "op": "between",
+            "min": 175.0,
+            "max": 450.0
+          },
+          "2": {
+            "op": "between",
+            "min": 175.0,
+            "max": 600.0
+          },
+          "1": {
+            "op": "between",
+            "min": 601.0,
+            "max": 750.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 750.0
+          }
+        },
+        "Oxide content": {
+          "7": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 200.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 300.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 400.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 500.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 750.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 1000.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 1000.0
+          }
+        },
+        "25 RTF twist": {
+          "7": {
+            "op": "gt",
+            "value": 35.0
+          },
+          "6": {
+            "op": "gt",
+            "value": 32.0
+          },
+          "5": {
+            "op": "gt",
+            "value": 30.0
+          },
+          "4": {
+            "op": "gt",
+            "value": 28.0
+          },
+          "3": {
+            "op": "gt",
+            "value": 25.0
+          },
+          "2": {
+            "op": "gt",
+            "value": 20.0
+          },
+          "1": {
+            "op": "gt",
+            "value": 10.0
+          },
+          "0": {
+            "op": "lt",
+            "value": 10.0
+          }
+        },
+        "15 \u00d7 15 twist": {
+          "7": {
+            "op": "eq",
+            "value": 1.0
+          },
+          "6": {
+            "op": "eq",
+            "value": 1.0
+          },
+          "5": {
+            "op": "eq",
+            "value": 1.0
+          },
+          "4": {
+            "op": "eq",
+            "value": 2.0
+          },
+          "3": {
+            "op": "eq",
+            "value": 2.0
+          },
+          "2": {
+            "op": "eq",
+            "value": 3.0
+          },
+          "1": {
+            "op": "eq",
+            "value": 4.0
+          },
+          "0": {
+            "op": "eq",
+            "value": 4.0
+          }
+        },
+        "Aluminium": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 5.0
+          }
+        },
+        "Antimony": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 4.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 4.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 4.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 5.0
+          }
+        },
+        "Arsenic": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 5.0
+          }
+        },
+        "Bismuth": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 2.0
+          }
+        },
+        "Cadmium": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 3.0
+          }
+        },
+        "Iron": {
+          "7": {
+            "op": "lt",
+            "value": 6.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 9.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 20.0
+          }
+        },
+        "Lead": {
+          "7": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 6.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 7.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 9.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 10.0
+          }
+        },
+        "Nickel": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 10.0
+          }
+        },
+        "Phosphorus": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 4.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 5.0
+          }
+        },
+        "Selenium": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 3.0
+          }
+        },
+        "Sulphur": {
+          "7": {
+            "op": "lt",
+            "value": 8.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 15.0
+          }
+        },
+        "Tellurium": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 2.0
+          }
+        },
+        "Tin": {
+          "7": {
+            "op": "lt",
+            "value": 1.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 3.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 100.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 100.0
+          }
+        },
+        "Zinc": {
+          "7": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "6": {
+            "op": "lt",
+            "value": 2.0
+          },
+          "5": {
+            "op": "lt",
+            "value": 5.0
+          },
+          "4": {
+            "op": "lt",
+            "value": 10.0
+          },
+          "3": {
+            "op": "lt",
+            "value": 15.0
+          },
+          "2": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "1": {
+            "op": "lt",
+            "value": 20.0
+          },
+          "0": {
+            "op": "gt",
+            "value": 20.0
+          }
+        }
+      }
+    }
+  ]
+}
