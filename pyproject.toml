@@ -1,0 +1,8 @@
+[project]
+name = "mmca-grade-transition-intelligence"
+version = "1.0.0"
+description = "Explainable copper-rod grade-transition and root-cause analysis."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

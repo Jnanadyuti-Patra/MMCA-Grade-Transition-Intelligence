@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+  <style>
+    .box{fill:#f4f8fa;stroke:#156082;stroke-width:2;rx:14}
+    .title{font:700 20px Arial;fill:#12344d}
+    .text{font:15px Arial;fill:#334e5c}
+    .arrow{stroke:#156082;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#156082"/>
+  </marker>
+</defs>
+<rect class="box" x="25" y="70" width="205" height="150"/>
+<text class="title" x="128" y="110" text-anchor="middle">Company Inputs</text>
+<text class="text" x="128" y="145" text-anchor="middle">Product workbook</text>
+<text class="text" x="128" y="172" text-anchor="middle">Process workbook</text>
+<text class="text" x="128" y="199" text-anchor="middle">Date range</text>
+
+<path class="arrow" d="M230 145 H285"/>
+
+<rect class="box" x="285" y="45" width="250" height="200"/>
+<text class="title" x="410" y="82" text-anchor="middle">Analysis Engine</text>
+<text class="text" x="410" y="118" text-anchor="middle">Sequence reconstruction</text>
+<text class="text" x="410" y="145" text-anchor="middle">Grade-transition detection</text>
+<text class="text" x="410" y="172" text-anchor="middle">Product grading triggers</text>
+<text class="text" x="410" y="199" text-anchor="middle">Process attribution</text>
+<text class="text" x="410" y="226" text-anchor="middle">Financial scenario</text>
+
+<path class="arrow" d="M535 145 H590"/>
+
+<rect class="box" x="590" y="45" width="250" height="200"/>
+<text class="title" x="715" y="82" text-anchor="middle">QC Intelligence</text>
+<text class="text" x="715" y="118" text-anchor="middle">Every sudden grade change</text>
+<text class="text" x="715" y="145" text-anchor="middle">Ranked product triggers</text>
+<text class="text" x="715" y="172" text-anchor="middle">Root-cause contributions</text>
+<text class="text" x="715" y="199" text-anchor="middle">Actionable CCR controls</text>
+<text class="text" x="715" y="226" text-anchor="middle">Estimated loss and savings</text>
+
+<path class="arrow" d="M840 145 H895"/>
+
+<rect class="box" x="895" y="70" width="280" height="150"/>
+<text class="title" x="1035" y="110" text-anchor="middle">Downloadable Report</text>
+<text class="text" x="1035" y="145" text-anchor="middle">Interactive dashboard</text>
+<text class="text" x="1035" y="172" text-anchor="middle">Excel evidence pack</text>
+<text class="text" x="1035" y="199" text-anchor="middle">Printable HTML report</text>
+</svg>
