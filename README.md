@@ -17,6 +17,8 @@ generates a detailed report for Quality Control and Process Engineering.
 
 ## Application Link: (https://mmca-grade-transition-intelligence.streamlit.app)
 
+Go through the MMCA User & Methodology guide before using the application to utilize its full benefits.
+
 ## Problem statement
 
 Copper rod is manufactured continuously and cut into coils according to customer
